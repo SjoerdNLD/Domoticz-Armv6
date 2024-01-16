@@ -4,9 +4,11 @@ You can transfer the file using WinSCP https://winscp.net/eng/download.php
 
 Stop, unpack and start using the following commands:
 
-sudo service domoticz.sh stop
-tar -xzvf domoticz_linux_xx-version-xx_armv6.tgz
-sudo service domoticz.sh start
+```markdown
+sudo service domoticz.sh stop 
+tar -xzvf domoticz_linux_xx-version-xx_armv6.tgz 
+sudo service domoticz.sh start 
 rm domoticz_linux_xx-version-xx_armv6.tgz
+```
 
 Please view the license here https://github.com/domoticz/domoticz/blob/development/License.txt
