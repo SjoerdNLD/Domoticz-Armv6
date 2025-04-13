@@ -21,7 +21,6 @@ rm domoticz_linux_xx-version-xx_armv6.tgz
 For a new install:
 Unpack, register and start using the following commands:
 ```markdown
-sudo service domoticz.sh stop 
 tar -xzvf domoticz_linux_xx-version-xx_armv6.tgz
 sudo cp domoticz.sh /etc/init.d
 sudo chmod +x /etc/init.d/domoticz.sh
