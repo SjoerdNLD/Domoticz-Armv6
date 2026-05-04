@@ -28,4 +28,14 @@ sudo update-rc.d domoticz.sh defaults
 sudo service domoticz.sh start 
 rm domoticz_linux_xx-version-xx_armv6.tgz
 ```
+
+Please ensure all libraries required are installed:
+Install using the following commands:
+```markdown
+sudo nano /etc/apt/sources.list
+Replace the line to and save: deb https://legacy.raspbian.org/raspbian/ buster main contrib non-free rpi
+
+sudo apt-get update && sudo apt-get install -y libmosquitto1 libcurl4-gnutls-dev libusb-0.1-4 libatomic1 libssl1.1
+```
+
 Please view the license here https://github.com/domoticz/domoticz/blob/development/License.txt
